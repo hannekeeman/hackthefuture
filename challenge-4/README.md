@@ -33,4 +33,4 @@ When you succesfully counted down from 10 to 0, our own missile will have succes
 Go to the Azure Portal and check out the Logic App in the rg-challenge-4 resource group. \
 Click on Logic App Designer.
 
-Now create that looping logic that decrements the COUNTDOWN variable **until** it reaches 9 and do a HTTP POST call in each iteration.
+Now create that looping logic that **decrements** the COUNTDOWN variable **until** it reaches 9 and do a **HTTP(( POST call in each iteration.
