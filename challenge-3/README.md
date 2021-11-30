@@ -41,6 +41,7 @@ When everything is correct, you can run the following command to apply the chang
 After you completed the code successfully, the website will be available on Azure.
 Do not forget to fil in your `TeamId` in the appservice.tf file.
 Make sure you verify that it works correctly by visiting the website. (check the [Azure portal](https://portal.azure.com) to find its url)
+First visit can take up to **5 minutes** to load. Time to grab a coffee!
 
 
 ## Prerequisites
