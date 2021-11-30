@@ -25,7 +25,7 @@ resource "azurerm_app_service_plan" "appserviceplan" {
 
   # Define Linux as Host OS
 
-  # Choose Basic Tier, Size = B1
+  # Choose Standard Tier, Size = S1
   
 }
 
