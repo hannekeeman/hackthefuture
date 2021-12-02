@@ -17,10 +17,10 @@ $url = "https://htfapi.azurewebsites.net/api/the-real-donald"
 $method = "POST"
 $body = @'
     {
-        "sendFakeDonaldData": "true"
+        "sendFakeDonaldData": true
 } 
 '@
-$jsonBody = ConvertFrom-json $body
+$jsonBody = ConvertTo-json $body
 
 
 
