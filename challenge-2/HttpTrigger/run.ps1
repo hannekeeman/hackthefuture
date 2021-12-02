@@ -15,11 +15,10 @@ param($Request, $TriggerMetadata)
 
 $url = "https://htfapi.azurewebsites.net/api/the-real-donald"
 $method = "POST"
-$body = @'
-    {
-        "sendFakeDonaldData": true
-} 
-'@
+$body = @{
+        "sendFakeDonaldData"= $TRUE
+    } 
+
 $jsonBody = ConvertTo-json $body
 
 
